@@ -1,2 +1,2 @@
 # hello-world
-For tutorials
+A repository for learning new skills.  
