@@ -113,7 +113,7 @@ Remix culture is a society that allows and encourages derivative works by combin
     <div id="iframe-container"><iframe width="100%" height="100" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/336880297&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></div>
    
   <script>
-      const text = document.getElementById('text');
+      const remixText = document.getElementById('text');
       const building = document.getElementById('new-building');
       const otherBuilding = document.getElementById('other-building');
       const skyline = document.getElementById('city-jpg');
@@ -121,7 +121,7 @@ Remix culture is a society that allows and encourages derivative works by combin
       const scrollHeight = text.scrollHeight;
       
       text.addEventListener('scroll',(e)=>{
-          let scroll=text.scrollTop;
+          let scroll=remixText.scrollTop;
           let x = 80 + (scroll/12);
           let y = -5 + (scroll/4);
           let z = 0 - (scroll/20);
